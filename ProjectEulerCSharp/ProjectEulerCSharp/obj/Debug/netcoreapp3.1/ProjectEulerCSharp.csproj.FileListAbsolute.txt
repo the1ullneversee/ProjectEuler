@@ -1,0 +1,14 @@
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.exe
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.deps.json
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.runtimeconfig.json
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.runtimeconfig.dev.json
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.dll
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\ProjectEulerCSharp.pdb
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.csprojAssemblyReference.cache
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.csproj.CoreCompileInputs.cache
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.AssemblyInfoInputs.cache
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.AssemblyInfo.cs
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.dll
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.pdb
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.genruntimeconfig.cache
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\Lessons\11\input.txt
