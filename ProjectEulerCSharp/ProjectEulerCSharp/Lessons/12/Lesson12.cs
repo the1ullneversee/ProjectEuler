@@ -9,6 +9,59 @@ namespace ProjectEulerCSharp.Lessons
         public Lesson12(int lessonNumber) : base(lessonNumber)
         {
 
+
+        }
+
+        public static long Solution(string s)
+        {
+            char[] chars = s.ToCharArray();
+            long max = 0;
+            long tempMax = 0;
+            List<char> pattern = new List<char>();
+            long[] prices = new long[5];
+            //go through each character and check the pattern ahead
+            for(int idx = 0; idx < chars.Length; ++idx)
+            {
+                int counter = idx + 1;
+                while (counter < chars.Length)
+                {
+                    char current = chars[counter];
+                    if (!Exists(current, pattern))
+                    {
+                        Console.Write($"[{current}]");
+                        pattern.Add(current);
+                        tempMax++;
+                        counter++;
+                        if (tempMax > max)
+                        {
+                            max = tempMax;
+
+                        }
+                    }
+                    else
+                    {
+                        tempMax = 0;
+                        pattern.Clear();
+                        break;
+                    }
+                   
+                }
+            }
+            return max;
+        }
+
+        private static bool Exists(char c, List<char> pattern)
+        {
+            if (pattern.Count == 0)
+                return false;
+
+            foreach(char a in pattern)
+            {
+                if ((c ^ a) == 0)
+                    return true;
+            }
+
+            return false;
         }
 
         /// <summary>
@@ -17,22 +70,21 @@ namespace ProjectEulerCSharp.Lessons
         public override void Solve()
         {
             base.Solve();
-
             int divisorsGoal = 500;
             Int64 currentTriangle = 1;
             Int64 startTriangle = 1;
             int currentMaxDivisors = 0;
 
-            while(currentMaxDivisors <= divisorsGoal)
+            while (currentMaxDivisors <= divisorsGoal)
             {
                 int tempDivisorCount = FindDivisors(currentTriangle);
 
-                if(tempDivisorCount > currentMaxDivisors)
+                if (tempDivisorCount > currentMaxDivisors)
                 {
                     //Console.WriteLine($"New max divisors found: {tempDivisorCount}");
                     currentMaxDivisors = tempDivisorCount;
                 }
-                if(currentMaxDivisors >= divisorsGoal)
+                if (currentMaxDivisors >= divisorsGoal)
                 {
                     break;
                 }
@@ -40,7 +92,7 @@ namespace ProjectEulerCSharp.Lessons
                 startTriangle++;
             }
 
-            base.Solved(currentTriangle.ToString());
+            base.Solved("");
         }
 
         private int FindDivisors(Int64 num)

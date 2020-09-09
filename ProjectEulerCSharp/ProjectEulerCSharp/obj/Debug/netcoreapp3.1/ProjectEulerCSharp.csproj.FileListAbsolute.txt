@@ -12,3 +12,4 @@ C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\o
 C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.pdb
 C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\obj\Debug\netcoreapp3.1\ProjectEulerCSharp.genruntimeconfig.cache
 C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\Lessons\11\input.txt
+C:\Users\tkk10\source\repos\ProjectEuler\ProjectEulerCSharp\ProjectEulerCSharp\bin\Debug\netcoreapp3.1\Lessons\13\input.txt

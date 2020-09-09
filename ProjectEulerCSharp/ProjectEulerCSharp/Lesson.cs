@@ -13,10 +13,13 @@ namespace ProjectEulerCSharp
         private int _lessonNumber;
         private string _inputFilePath;
         private List<int> _inputData;
+        private bool _readInputData;
 
         public int LessonNumber { get => _lessonNumber; set => _lessonNumber = value; }
         public string InputFilePath { get => _inputFilePath; set => _inputFilePath = value; }
         public List<int> InputData { get => _inputData; set => _inputData = value; }
+        public bool OverrideInputRead { get => _readInputData; set => _readInputData = value; }
+
         private Stopwatch stopwatch;
 
         public Lesson(int number)

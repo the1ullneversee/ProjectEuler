@@ -9,7 +9,7 @@ namespace ProjectEulerCSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Lesson lesson = new Lesson12(12);
+            Lesson lesson = new Lesson14(14);
             lesson.Solve();
         }
     }
